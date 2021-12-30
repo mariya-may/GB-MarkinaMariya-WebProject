@@ -19,3 +19,4 @@ function loadScript(url, callback = null) {
         element.onload = callback;
     }
 }
+

@@ -1,7 +1,7 @@
-import './howler.core.min.js';
+import { Howl } from 'howler';
 
 let sound = new Howl({
-    src: ['./audio/audio_stopwatch.mp3'],
+    src: ['./audio/stopwatch.mp3'],
     sprite: {
         laser: [0, 10000],
     }
